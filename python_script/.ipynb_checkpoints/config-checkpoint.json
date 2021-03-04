@@ -1,0 +1,1 @@
+{"path": "../preprocess_data/train_preprocess", "name": "resnet152", "model": "resnet152", "pretrain": "imagenet", "model_path": "../models/resnet152", "num_epochs": 40, "batch_size": 16, "seed": 1015, "device": "cuda:0"}

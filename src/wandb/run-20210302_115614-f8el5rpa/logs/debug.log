@@ -1,0 +1,71 @@
+2021-03-02 11:56:14,898 INFO    MainThread:15359 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-02 11:56:14,899 INFO    MainThread:15359 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-02 11:56:14,899 INFO    MainThread:15359 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff4c88b63d0>
+2021-03-02 11:56:14,899 INFO    MainThread:15359 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210302_115614-f8el5rpa/logs/debug.log
+2021-03-02 11:56:14,899 INFO    MainThread:15359 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210302_115614-f8el5rpa/logs/debug-internal.log
+2021-03-02 11:56:14,899 INFO    MainThread:15359 [wandb_init.py:init():352] calling init triggers
+2021-03-02 11:56:14,899 INFO    MainThread:15359 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/no_aug', 'name': 'resnet152', 'model': 'resnet152', 'pretrain': 'imagenet', 'model_path': '../models/resnet152', 'augmentation': [Transpose(always_apply=False, p=0.5), RandomRotate90(always_apply=3, p=0.5), Rotate(always_apply=False, p=1, limit=(-90, 90), interpolation=1, border_mode=1, value=None, mask_value=None), GridDistortion(always_apply=False, p=0.2, num_steps=5, distort_limit=(-0.3, 0.3), interpolation=1, border_mode=4, value=None, mask_value=None), Cutout(always_apply=False, p=0.2, num_holes=30, max_h_size=20, max_w_size=20)], 'num_epochs': 40, 'batch_size': 16, 'optimizer': <class 'torch.optim.adam.Adam'>, 'scheduler': <class 'torch.optim.lr_scheduler.CosineAnnealingWarmRestarts'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda:0'}
+2021-03-02 11:56:14,899 INFO    MainThread:15359 [wandb_init.py:init():374] re-initializing run, found existing run on stack: 12rjiqsq
+2021-03-02 11:56:14,901 INFO    MainThread:15359 [wandb_run.py:finish():1078] finishing run deagwon-bu/ct_segment/12rjiqsq
+2021-03-02 11:56:14,901 INFO    MainThread:15359 [wandb_init.py:_jupyter_teardown():250] cleaning up jupyter logic
+2021-03-02 11:56:14,901 INFO    MainThread:15359 [jupyter.py:save_history():208] not saving jupyter history
+2021-03-02 11:56:14,902 INFO    MainThread:15359 [wandb_run.py:_atexit_cleanup():1392] got exitcode: 0
+2021-03-02 11:56:14,902 INFO    MainThread:15359 [wandb_run.py:_restore():1364] restore
+2021-03-02 11:56:15,194 INFO    MainThread:15359 [wandb_run.py:_wait_for_finish():1515] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 854
+  total_bytes: 854
+}
+
+2021-03-02 11:56:17,207 INFO    MainThread:15359 [wandb_run.py:_wait_for_finish():1515] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 5040
+  total_bytes: 5040
+}
+
+2021-03-02 11:56:18,526 INFO    MainThread:15359 [wandb_run.py:_show_files():1737] logging synced files
+2021-03-02 11:56:18,533 INFO    MainThread:15359 [wandb_init.py:init():401] starting backend
+2021-03-02 11:56:18,534 INFO    MainThread:15359 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-03-02 11:56:18,539 INFO    MainThread:15359 [backend.py:ensure_launched():123] starting backend process...
+2021-03-02 11:56:18,566 INFO    MainThread:15359 [backend.py:ensure_launched():128] started backend process with pid: 27383
+2021-03-02 11:56:18,567 INFO    MainThread:15359 [wandb_init.py:init():406] backend started and connected
+2021-03-02 11:56:18,592 INFO    MainThread:15359 [wandb_init.py:init():446] updated telemetry
+2021-03-02 11:56:18,593 INFO    MainThread:15359 [wandb_init.py:init():465] communicating current version
+2021-03-02 11:56:19,139 INFO    MainThread:15359 [wandb_init.py:init():470] got version response 
+2021-03-02 11:56:19,139 INFO    MainThread:15359 [wandb_init.py:init():478] communicating run to backend with 30 second timeout
+2021-03-02 11:56:19,457 INFO    MainThread:15359 [wandb_init.py:init():503] starting run threads in backend
+2021-03-02 11:56:20,446 INFO    MainThread:15359 [wandb_run.py:_console_start():1422] atexit reg
+2021-03-02 11:56:20,447 INFO    MainThread:15359 [wandb_run.py:_redirect():1285] redirect: SettingsConsole.WRAP
+2021-03-02 11:56:20,447 INFO    MainThread:15359 [wandb_run.py:_redirect():1320] Wrapping output streams.
+2021-03-02 11:56:20,447 INFO    MainThread:15359 [wandb_run.py:_redirect():1336] Redirects installed.
+2021-03-02 11:56:20,448 INFO    MainThread:15359 [wandb_init.py:init():527] run started, returning control to user process
+2021-03-02 11:57:29,558 INFO    MainThread:15359 [wandb_run.py:_atexit_cleanup():1392] got exitcode: 0
+2021-03-02 11:57:29,559 INFO    MainThread:15359 [wandb_run.py:_restore():1364] restore
+2021-03-02 11:57:29,908 INFO    MainThread:15359 [wandb_run.py:_wait_for_finish():1515] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 854
+  total_bytes: 854
+}
+
+2021-03-02 11:57:31,922 INFO    MainThread:15359 [wandb_run.py:_wait_for_finish():1515] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 5781
+  total_bytes: 5781
+}
+
+2021-03-02 11:57:33,239 INFO    MainThread:15359 [wandb_run.py:_show_files():1737] logging synced files

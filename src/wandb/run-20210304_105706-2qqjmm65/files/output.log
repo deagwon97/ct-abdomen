@@ -1,0 +1,14 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+/home/dacon/Dacon/bdg/ct-final/notebooks
+1
+/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/albumentations/augmentations/transforms.py:2247: UserWarning: Using lambda is incompatible with multiprocessing. Consider using regular functions or partial().
+  warnings.warn('Using lambda is incompatible with multiprocessing. '
+
+Epoch: 0
+train:   0%|          | 0/227 [00:00<?, ?it/s]train:   0%|          | 0/227 [00:00<?, ?it/s]
+1
+
+Epoch: 0
+train:   0%|          | 0/227 [00:00<?, ?it/s]/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/segmentation_models_pytorch/base/modules.py:102: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self.activation(x)
+train:   0%|          | 0/227 [00:01<?, ?it/s, dice_loss - 0.7307, avg_jaccard - 0.09536, avg_dice - 0.1607, avg_tpf - 0.2628, avg_fpf - 0.2347]train:   0%|          | 1/227 [00:01<05:17,  1.41s/it, dice_loss - 0.7307, avg_jaccard - 0.09536, avg_dice - 0.1607, avg_tpf - 0.2628, avg_fpf - 0.2347]train:   0%|          | 1/227 [00:02<05:17,  1.41s/it, dice_loss - 0.7117, avg_jaccard - 0.1161, avg_dice - 0.1881, avg_tpf - 0.2962, avg_fpf - 0.2118] train:   1%|          | 2/227 [00:02<04:35,  1.23s/it, dice_loss - 0.7117, avg_jaccard - 0.1161, avg_dice - 0.1881, avg_tpf - 0.2962, avg_fpf - 0.2118]train:   1%|          | 2/227 [00:03<04:35,  1.23s/it, dice_loss - 0.6994, avg_jaccard - 0.13, avg_dice - 0.2052, avg_tpf - 0.3201, avg_fpf - 0.1982]  train:   1%|▏         | 3/227 [00:03<04:08,  1.11s/it, dice_loss - 0.6994, avg_jaccard - 0.13, avg_dice - 0.2052, avg_tpf - 0.3201, avg_fpf - 0.1982]train:   1%|▏         | 3/227 [00:03<04:08,  1.11s/it, dice_loss - 0.6879, avg_jaccard - 0.1443, avg_dice - 0.2226, avg_tpf - 0.34, avg_fpf - 0.1866]train:   2%|▏         | 4/227 [00:03<03:46,  1.02s/it, dice_loss - 0.6879, avg_jaccard - 0.1443, avg_dice - 0.2226, avg_tpf - 0.34, avg_fpf - 0.1866]train:   2%|▏         | 4/227 [00:04<04:16,  1.15s/it, dice_loss - 0.6879, avg_jaccard - 0.1443, avg_dice - 0.2226, avg_tpf - 0.34, avg_fpf - 0.1866]

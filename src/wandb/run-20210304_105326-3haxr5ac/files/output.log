@@ -1,0 +1,8 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+average_score.csv  [0m[01;34mlosses[0m/  [01;34mpreprocess[0m/    [01;34mutils[0m/
+[01;34mdatasets[0m/          [01;34mmetrix[0m/  report_df.csv  [01;34mwandb[0m/
+[0m[01;34mdata[0m/  [01;34mmodels[0m/  [01;34mnotebooks[0m/  [01;34msrc[0m/
+/home/dacon/Dacon/bdg/ct-final/notebooks
+1
+/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/albumentations/augmentations/transforms.py:2247: UserWarning: Using lambda is incompatible with multiprocessing. Consider using regular functions or partial().
+  warnings.warn('Using lambda is incompatible with multiprocessing. '

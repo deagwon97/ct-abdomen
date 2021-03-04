@@ -1,0 +1,60 @@
+2021-02-26 12:44:31,752 INFO    MainThread:25450 [wandb_setup.py:_flush():69] setting env: {}
+2021-02-26 12:44:31,752 INFO    MainThread:25450 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-02-26 12:44:31,752 INFO    MainThread:25450 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7151187650>
+2021-02-26 12:44:31,752 INFO    MainThread:25450 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210226_124431-3iykbpll/logs/debug.log
+2021-02-26 12:44:31,753 INFO    MainThread:25450 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210226_124431-3iykbpll/logs/debug-internal.log
+2021-02-26 12:44:31,753 INFO    MainThread:25450 [wandb_init.py:init():352] calling init triggers
+2021-02-26 12:44:31,753 INFO    MainThread:25450 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/no_aug', 'name': 'resnet152', 'model': 'resnet152', 'pretrain': 'imagenet', 'model_path': '../models/resnet152', 'augmentation': [Transpose(always_apply=False, p=0.5), RandomRotate90(always_apply=3, p=0.5), Rotate(always_apply=False, p=1, limit=(-90, 90), interpolation=1, border_mode=0, value=None, mask_value=None), GridDistortion(always_apply=False, p=0.2, num_steps=5, distort_limit=(-0.3, 0.3), interpolation=1, border_mode=4, value=None, mask_value=None), Cutout(always_apply=False, p=1, num_holes=30, max_h_size=15, max_w_size=15)], 'num_epochs': 40, 'batch_size': 16, 'optimizer': <class 'torch.optim.adam.Adam'>, 'scheduler': <class 'torch.optim.lr_scheduler.CosineAnnealingWarmRestarts'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda:0'}
+2021-02-26 12:44:31,753 INFO    MainThread:25450 [wandb_init.py:init():374] re-initializing run, found existing run on stack: 1x7hcowa
+2021-02-26 12:44:31,754 INFO    MainThread:25450 [wandb_run.py:finish():1078] finishing run deagwon-bu/ct_segment/1x7hcowa
+2021-02-26 12:44:31,754 INFO    MainThread:25450 [wandb_init.py:_jupyter_teardown():250] cleaning up jupyter logic
+2021-02-26 12:44:31,755 INFO    MainThread:25450 [jupyter.py:save_history():208] not saving jupyter history
+2021-02-26 12:44:31,755 INFO    MainThread:25450 [wandb_run.py:_atexit_cleanup():1392] got exitcode: 0
+2021-02-26 12:44:31,755 INFO    MainThread:25450 [wandb_run.py:_restore():1364] restore
+2021-02-26 12:44:32,059 INFO    MainThread:25450 [wandb_run.py:_wait_for_finish():1515] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 854
+  total_bytes: 854
+}
+
+2021-02-26 12:44:34,073 INFO    MainThread:25450 [wandb_run.py:_wait_for_finish():1515] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 5328
+  total_bytes: 5328
+}
+
+2021-02-26 12:44:35,411 INFO    MainThread:25450 [wandb_run.py:_show_files():1737] logging synced files
+2021-02-26 12:44:35,418 INFO    MainThread:25450 [wandb_init.py:init():401] starting backend
+2021-02-26 12:44:35,418 INFO    MainThread:25450 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-02-26 12:44:35,424 INFO    MainThread:25450 [backend.py:ensure_launched():123] starting backend process...
+2021-02-26 12:44:35,452 INFO    MainThread:25450 [backend.py:ensure_launched():128] started backend process with pid: 27946
+2021-02-26 12:44:35,453 INFO    MainThread:25450 [wandb_init.py:init():406] backend started and connected
+2021-02-26 12:44:35,464 INFO    MainThread:25450 [wandb_init.py:init():446] updated telemetry
+2021-02-26 12:44:35,465 INFO    MainThread:25450 [wandb_init.py:init():465] communicating current version
+2021-02-26 12:44:36,016 INFO    MainThread:25450 [wandb_init.py:init():470] got version response 
+2021-02-26 12:44:36,017 INFO    MainThread:25450 [wandb_init.py:init():478] communicating run to backend with 30 second timeout
+2021-02-26 12:44:36,346 INFO    MainThread:25450 [wandb_init.py:init():503] starting run threads in backend
+2021-02-26 12:44:37,340 INFO    MainThread:25450 [wandb_run.py:_console_start():1422] atexit reg
+2021-02-26 12:44:37,341 INFO    MainThread:25450 [wandb_run.py:_redirect():1285] redirect: SettingsConsole.WRAP
+2021-02-26 12:44:37,341 INFO    MainThread:25450 [wandb_run.py:_redirect():1320] Wrapping output streams.
+2021-02-26 12:44:37,342 INFO    MainThread:25450 [wandb_run.py:_redirect():1336] Redirects installed.
+2021-02-26 12:44:37,342 INFO    MainThread:25450 [wandb_init.py:init():527] run started, returning control to user process
+2021-02-26 12:45:19,548 INFO    MainThread:25450 [wandb_init.py:_jupyter_setup():271] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7150eaccd0>
+2021-02-26 12:45:19,549 INFO    MainThread:25450 [wandb_setup.py:_flush():69] setting env: {}
+2021-02-26 12:45:19,550 INFO    MainThread:25450 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-02-26 12:45:19,550 INFO    MainThread:25450 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f7151187650>
+2021-02-26 12:45:19,550 INFO    MainThread:25450 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210226_124519-wja6yrw5/logs/debug.log
+2021-02-26 12:45:19,550 INFO    MainThread:25450 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210226_124519-wja6yrw5/logs/debug-internal.log
+2021-02-26 12:45:19,550 INFO    MainThread:25450 [wandb_init.py:init():352] calling init triggers
+2021-02-26 12:45:19,550 INFO    MainThread:25450 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/no_aug', 'name': 'resnet152', 'model': 'resnet152', 'pretrain': 'imagenet', 'model_path': '../models/resnet152', 'augmentation': [Transpose(always_apply=False, p=0.5), RandomRotate90(always_apply=3, p=0.5), Rotate(always_apply=False, p=1, limit=(-90, 90), interpolation=1, border_mode=1, value=None, mask_value=None), GridDistortion(always_apply=False, p=0.2, num_steps=5, distort_limit=(-0.3, 0.3), interpolation=1, border_mode=4, value=None, mask_value=None), Cutout(always_apply=False, p=1, num_holes=30, max_h_size=15, max_w_size=15)], 'num_epochs': 40, 'batch_size': 16, 'optimizer': <class 'torch.optim.adam.Adam'>, 'scheduler': <class 'torch.optim.lr_scheduler.CosineAnnealingWarmRestarts'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda:0'}
+2021-02-26 12:45:19,550 INFO    MainThread:25450 [wandb_init.py:init():374] re-initializing run, found existing run on stack: 3iykbpll
+2021-02-26 12:45:19,552 INFO    MainThread:25450 [wandb_run.py:finish():1078] finishing run deagwon-bu/ct_segment/3iykbpll

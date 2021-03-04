@@ -1,0 +1,39 @@
+2021-02-25 14:39:22,648 INFO    MainThread:12981 [wandb_setup.py:_flush():69] setting env: {}
+2021-02-25 14:39:22,649 INFO    MainThread:12981 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-02-25 14:39:22,649 INFO    MainThread:12981 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fe00939f4d0>
+2021-02-25 14:39:22,649 INFO    MainThread:12981 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_143922-18td3evh/logs/debug.log
+2021-02-25 14:39:22,649 INFO    MainThread:12981 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_143922-18td3evh/logs/debug-internal.log
+2021-02-25 14:39:22,649 INFO    MainThread:12981 [wandb_init.py:init():352] calling init triggers
+2021-02-25 14:39:22,649 INFO    MainThread:12981 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/normal2', 'name': 'effb3-base', 'model': 'efficientnet-b3', 'pretrain': 'imagenet', 'model_path': '../models/unet_effb3', 'num_epochs': 50, 'batch_size': 8, 'optimizer': <class 'torch.optim.adam.Adam'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda:0'}
+2021-02-25 14:39:22,650 INFO    MainThread:12981 [wandb_init.py:init():401] starting backend
+2021-02-25 14:39:22,650 INFO    MainThread:12981 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-02-25 14:39:22,682 INFO    MainThread:12981 [backend.py:ensure_launched():123] starting backend process...
+2021-02-25 14:39:22,706 INFO    MainThread:12981 [backend.py:ensure_launched():128] started backend process with pid: 13021
+2021-02-25 14:39:22,707 INFO    MainThread:12981 [wandb_init.py:init():406] backend started and connected
+2021-02-25 14:39:22,736 INFO    MainThread:12981 [wandb_init.py:init():446] updated telemetry
+2021-02-25 14:39:22,737 INFO    MainThread:12981 [wandb_init.py:init():465] communicating current version
+2021-02-25 14:39:23,255 INFO    MainThread:12981 [wandb_init.py:init():470] got version response 
+2021-02-25 14:39:23,255 INFO    MainThread:12981 [wandb_init.py:init():478] communicating run to backend with 30 second timeout
+2021-02-25 14:39:23,592 INFO    MainThread:12981 [wandb_init.py:init():503] starting run threads in backend
+2021-02-25 14:39:25,343 INFO    MainThread:12981 [wandb_run.py:_console_start():1422] atexit reg
+2021-02-25 14:39:25,344 INFO    MainThread:12981 [wandb_run.py:_redirect():1285] redirect: SettingsConsole.WRAP
+2021-02-25 14:39:25,344 INFO    MainThread:12981 [wandb_run.py:_redirect():1320] Wrapping output streams.
+2021-02-25 14:39:25,345 INFO    MainThread:12981 [wandb_run.py:_redirect():1336] Redirects installed.
+2021-02-25 14:39:25,345 INFO    MainThread:12981 [wandb_init.py:init():527] run started, returning control to user process
+2021-02-25 14:39:25,358 INFO    MainThread:12981 [wandb_init.py:_pause_backend():240] pausing backend
+2021-02-25 14:39:25,396 INFO    MainThread:12981 [wandb_init.py:_resume_backend():245] resuming backend
+2021-02-25 14:39:25,425 INFO    MainThread:12981 [wandb_init.py:_pause_backend():240] pausing backend
+2021-02-25 14:39:37,161 INFO    MainThread:12981 [wandb_init.py:_resume_backend():245] resuming backend
+2021-02-25 14:39:37,169 INFO    MainThread:12981 [wandb_setup.py:_flush():69] setting env: {}
+2021-02-25 14:39:37,169 INFO    MainThread:12981 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-02-25 14:39:37,169 INFO    MainThread:12981 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fe00939f4d0>
+2021-02-25 14:39:37,169 INFO    MainThread:12981 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_143937-3a8u502d/logs/debug.log
+2021-02-25 14:39:37,169 INFO    MainThread:12981 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_143937-3a8u502d/logs/debug-internal.log
+2021-02-25 14:39:37,169 INFO    MainThread:12981 [wandb_init.py:init():352] calling init triggers
+2021-02-25 14:39:37,169 INFO    MainThread:12981 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/normal2', 'name': 'effb3-base', 'model': 'efficientnet-b3', 'pretrain': 'imagenet', 'model_path': '../models/unet_effb3', 'num_epochs': 50, 'batch_size': 8, 'optimizer': <class 'torch.optim.adam.Adam'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda:0'}
+2021-02-25 14:39:37,169 INFO    MainThread:12981 [wandb_init.py:init():374] re-initializing run, found existing run on stack: 18td3evh
+2021-02-25 14:39:37,171 INFO    MainThread:12981 [wandb_run.py:finish():1078] finishing run jin1125/ct_segment/18td3evh
+2021-02-25 14:39:37,171 INFO    MainThread:12981 [wandb_init.py:_jupyter_teardown():250] cleaning up jupyter logic
+2021-02-25 14:39:37,171 INFO    MainThread:12981 [jupyter.py:save_history():208] not saving jupyter history

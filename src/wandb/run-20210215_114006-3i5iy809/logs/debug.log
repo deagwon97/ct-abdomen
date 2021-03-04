@@ -1,0 +1,71 @@
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcebaa15290>
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_init.py:_log_setup():303] Logging user logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210215_114006-3i5iy809/logs/debug.log
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_init.py:_log_setup():304] Logging internal logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210215_114006-3i5iy809/logs/debug-internal.log
+2021-02-15 11:40:06,387 INFO    MainThread:14127 [wandb_run.py:finish():914] finishing run deagwon-bu/ct_segment/176d54il
+2021-02-15 11:40:06,387 INFO    MainThread:14127 [wandb_init.py:_jupyter_teardown():234] cleaning up jupyter logic
+2021-02-15 11:40:06,387 INFO    MainThread:14127 [jupyter.py:save_history():208] not saving jupyter history
+2021-02-15 11:40:06,387 INFO    MainThread:14127 [wandb_run.py:_atexit_cleanup():1207] got exitcode: 0
+2021-02-15 11:40:06,387 INFO    MainThread:14127 [wandb_run.py:_restore():1179] restore
+2021-02-15 11:40:06,392 INFO    MainThread:14127 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5082996f23104d3892b091db0ad11cf8"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 14
+    }
+    pusher_stats {
+      uploaded_bytes: 3701182
+      total_bytes: 3701182
+    }
+  }
+}
+
+2021-02-15 11:40:08,400 INFO    MainThread:14127 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "b8f81fb081044d6aaf3448ccb421d87f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 14
+    }
+    pusher_stats {
+      uploaded_bytes: 8218915
+      total_bytes: 8218915
+    }
+  }
+}
+
+2021-02-15 11:40:10,404 INFO    MainThread:14127 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "623caa30936f48f9aa1e6c9360cb4118"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 14
+    }
+    pusher_stats {
+      uploaded_bytes: 8218915
+      total_bytes: 8218915
+    }
+  }
+}
+
+2021-02-15 11:40:11,556 INFO    MainThread:14127 [wandb_run.py:_show_summary():1469] rendering summary
+2021-02-15 11:40:11,559 INFO    MainThread:14127 [wandb_run.py:_show_history():1507] rendering history
+2021-02-15 11:40:11,562 INFO    MainThread:14127 [wandb_run.py:_show_files():1536] logging synced files
+2021-02-15 11:40:13,121 INFO    MainThread:14127 [wandb_run.py:_console_start():1237] atexit reg
+2021-02-15 11:40:13,122 INFO    MainThread:14127 [wandb_run.py:_redirect():1104] redirect: SettingsConsole.WRAP
+2021-02-15 11:40:13,122 INFO    MainThread:14127 [wandb_run.py:_redirect():1135] Wrapping output streams.
+2021-02-15 11:40:13,122 INFO    MainThread:14127 [wandb_run.py:_redirect():1151] Redirects installed.
+2021-02-15 12:03:27,050 INFO    MainThread:14127 [wandb_init.py:_jupyter_setup():255] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcfb3155710>
+2021-02-15 12:03:27,052 INFO    MainThread:14127 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-15 12:03:27,052 INFO    MainThread:14127 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-15 12:03:27,052 INFO    MainThread:14127 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-15 12:03:27,052 INFO    MainThread:14127 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcebaa15290>
+2021-02-15 12:03:27,053 INFO    MainThread:14127 [wandb_init.py:_log_setup():303] Logging user logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210215_120327-3gzgjp39/logs/debug.log
+2021-02-15 12:03:27,053 INFO    MainThread:14127 [wandb_init.py:_log_setup():304] Logging internal logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210215_120327-3gzgjp39/logs/debug-internal.log
+2021-02-15 12:03:27,054 INFO    MainThread:14127 [wandb_run.py:finish():914] finishing run deagwon-bu/ct_segment/3i5iy809

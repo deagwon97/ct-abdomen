@@ -1,0 +1,35 @@
+2021-02-14 16:03:34,163 INFO    MainThread:14127 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-14 16:03:34,163 INFO    MainThread:14127 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-14 16:03:34,163 INFO    MainThread:14127 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-14 16:03:34,164 INFO    MainThread:14127 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcebaa15290>
+2021-02-14 16:03:34,164 INFO    MainThread:14127 [wandb_init.py:_log_setup():303] Logging user logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210214_160334-176d54il/logs/debug.log
+2021-02-14 16:03:34,164 INFO    MainThread:14127 [wandb_init.py:_log_setup():304] Logging internal logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210214_160334-176d54il/logs/debug-internal.log
+2021-02-14 16:03:35,439 INFO    MainThread:14127 [wandb_run.py:_console_start():1237] atexit reg
+2021-02-14 16:03:35,439 INFO    MainThread:14127 [wandb_run.py:_redirect():1104] redirect: SettingsConsole.WRAP
+2021-02-14 16:03:35,440 INFO    MainThread:14127 [wandb_run.py:_redirect():1135] Wrapping output streams.
+2021-02-14 16:03:35,440 INFO    MainThread:14127 [wandb_run.py:_redirect():1151] Redirects installed.
+2021-02-14 16:03:35,448 INFO    MainThread:14127 [wandb_init.py:_pause_backend():224] pausing backend
+2021-02-14 16:03:35,493 INFO    MainThread:14127 [wandb_init.py:_resume_backend():229] resuming backend
+2021-02-14 16:03:35,506 INFO    MainThread:14127 [wandb_init.py:_pause_backend():224] pausing backend
+2021-02-14 16:03:36,782 INFO    MainThread:14127 [wandb_init.py:_resume_backend():229] resuming backend
+2021-02-15 00:08:33,080 INFO    MainThread:14127 [wandb_init.py:_pause_backend():224] pausing backend
+2021-02-15 11:40:04,690 INFO    MainThread:14127 [wandb_init.py:_resume_backend():229] resuming backend
+2021-02-15 11:40:04,695 INFO    MainThread:14127 [wandb_init.py:_pause_backend():224] pausing backend
+2021-02-15 11:40:04,727 INFO    MainThread:14127 [wandb_init.py:_resume_backend():229] resuming backend
+2021-02-15 11:40:04,729 INFO    MainThread:14127 [wandb_init.py:_pause_backend():224] pausing backend
+2021-02-15 11:40:04,867 INFO    MainThread:14127 [wandb_init.py:_resume_backend():229] resuming backend
+2021-02-15 11:40:04,868 INFO    MainThread:14127 [wandb_init.py:_pause_backend():224] pausing backend
+2021-02-15 11:40:05,526 INFO    MainThread:14127 [wandb_init.py:_resume_backend():229] resuming backend
+2021-02-15 11:40:05,527 INFO    MainThread:14127 [wandb_init.py:_pause_backend():224] pausing backend
+2021-02-15 11:40:05,848 INFO    MainThread:14127 [wandb_init.py:_resume_backend():229] resuming backend
+2021-02-15 11:40:05,850 INFO    MainThread:14127 [wandb_init.py:_pause_backend():224] pausing backend
+2021-02-15 11:40:06,374 INFO    MainThread:14127 [wandb_init.py:_resume_backend():229] resuming backend
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcebaa15290>
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_init.py:_log_setup():303] Logging user logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210215_114006-3i5iy809/logs/debug.log
+2021-02-15 11:40:06,385 INFO    MainThread:14127 [wandb_init.py:_log_setup():304] Logging internal logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210215_114006-3i5iy809/logs/debug-internal.log
+2021-02-15 11:40:06,387 INFO    MainThread:14127 [wandb_run.py:finish():914] finishing run deagwon-bu/ct_segment/176d54il
+2021-02-15 11:40:06,387 INFO    MainThread:14127 [wandb_init.py:_jupyter_teardown():234] cleaning up jupyter logic
+2021-02-15 11:40:06,387 INFO    MainThread:14127 [jupyter.py:save_history():208] not saving jupyter history

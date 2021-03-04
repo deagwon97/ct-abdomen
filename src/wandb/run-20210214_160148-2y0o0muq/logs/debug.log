@@ -1,0 +1,76 @@
+2021-02-14 16:01:48,154 INFO    MainThread:12965 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-14 16:01:48,154 INFO    MainThread:12965 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-14 16:01:48,154 INFO    MainThread:12965 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-14 16:01:48,155 INFO    MainThread:12965 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd0a0f41a10>
+2021-02-14 16:01:48,155 INFO    MainThread:12965 [wandb_init.py:_log_setup():303] Logging user logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210214_160148-2y0o0muq/logs/debug.log
+2021-02-14 16:01:48,155 INFO    MainThread:12965 [wandb_init.py:_log_setup():304] Logging internal logs to /home/ubuntu/Dacon/jin/ct/src/wandb/run-20210214_160148-2y0o0muq/logs/debug-internal.log
+2021-02-14 16:01:48,156 INFO    MainThread:12965 [wandb_run.py:finish():914] finishing run deagwon-bu/ct_segment/4kje00ai
+2021-02-14 16:01:48,156 INFO    MainThread:12965 [wandb_init.py:_jupyter_teardown():234] cleaning up jupyter logic
+2021-02-14 16:01:48,156 INFO    MainThread:12965 [jupyter.py:save_history():208] not saving jupyter history
+2021-02-14 16:01:48,157 INFO    MainThread:12965 [wandb_run.py:_atexit_cleanup():1207] got exitcode: 0
+2021-02-14 16:01:48,157 INFO    MainThread:12965 [wandb_run.py:_restore():1179] restore
+2021-02-14 16:01:48,161 INFO    MainThread:12965 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "c43d1142c95b4250877200f16bb2caa9"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 634
+      total_bytes: 634
+    }
+  }
+}
+
+2021-02-14 16:01:50,168 INFO    MainThread:12965 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ce87f649780c4ea695a191c4a0e5326b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 9043
+      total_bytes: 9043
+    }
+  }
+}
+
+2021-02-14 16:01:52,173 INFO    MainThread:12965 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "6d1a8c92242641b196d632af71c736c2"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 9043
+      total_bytes: 9043
+    }
+  }
+}
+
+2021-02-14 16:01:53,258 INFO    MainThread:12965 [wandb_run.py:_show_summary():1469] rendering summary
+2021-02-14 16:01:53,260 INFO    MainThread:12965 [wandb_run.py:_show_history():1507] rendering history
+2021-02-14 16:01:53,261 INFO    MainThread:12965 [wandb_run.py:_show_files():1536] logging synced files
+2021-02-14 16:01:54,493 INFO    MainThread:12965 [wandb_run.py:_console_start():1237] atexit reg
+2021-02-14 16:01:54,494 INFO    MainThread:12965 [wandb_run.py:_redirect():1104] redirect: SettingsConsole.WRAP
+2021-02-14 16:01:54,494 INFO    MainThread:12965 [wandb_run.py:_redirect():1135] Wrapping output streams.
+2021-02-14 16:01:54,494 INFO    MainThread:12965 [wandb_run.py:_redirect():1151] Redirects installed.
+2021-02-14 16:03:11,694 INFO    MainThread:12965 [wandb_run.py:_atexit_cleanup():1207] got exitcode: 0
+2021-02-14 16:03:11,694 INFO    MainThread:12965 [wandb_run.py:_restore():1179] restore
+2021-02-14 16:03:11,697 INFO    MainThread:12965 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "221fc52838d14390a881286b59f52a33"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 3
+    }
+    pusher_stats {
+      uploaded_bytes: 1485930
+      total_bytes: 1485930
+    }
+  }
+}
+

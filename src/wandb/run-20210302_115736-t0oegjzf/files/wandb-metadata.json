@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.4.0-65-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-03-02T02:57:38.553934",
+    "startedAt": "2021-03-02T02:57:36.632430",
+    "docker": null,
+    "gpu": "GeForce RTX 3090",
+    "gpu_count": 4,
+    "cpu_count": 24,
+    "cuda": "11.0.207",
+    "args": [
+        "-f",
+        "/home/dacon/.local/share/jupyter/runtime/kernel-2ea95f30-24e6-409f-8c1d-cf51bc92fa65.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/deagwon97/ct.git",
+        "commit": "c495a8f9e5725a4f4ff692d1ab6642a5d264e8ef"
+    },
+    "email": "choiuijin1125@gmail.com",
+    "root": "/home/dacon/Dacon/bdg/ct",
+    "host": "dacon-System-Product-Name",
+    "username": "dacon",
+    "executable": "/home/dacon/anaconda3/envs/ct/bin/python"
+}

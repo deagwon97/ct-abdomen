@@ -1,0 +1,5 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+1
+
+Epoch: 0
+train:   0%|          | 0/13270 [00:00<?, ?it/s]train:   0%|          | 0/13270 [00:00<?, ?it/s]

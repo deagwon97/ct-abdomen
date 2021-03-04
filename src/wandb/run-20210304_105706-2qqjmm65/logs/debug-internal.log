@@ -1,0 +1,316 @@
+2021-03-04 10:57:07,067 INFO    MainThread:2621 [internal.py:wandb_internal():91] W&B internal server running at pid: 2621, started at: 2021-03-04 10:57:07.067099
+2021-03-04 10:57:07,069 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: check_version
+2021-03-04 10:57:07,069 INFO    WriterThread:2621 [datastore.py:open_for_write():77] open: /home/dacon/Dacon/bdg/ct-final/src/wandb/run-20210304_105706-2qqjmm65/run-2qqjmm65.wandb
+2021-03-04 10:57:07,071 DEBUG   SenderThread:2621 [sender.py:send():122] send: header
+2021-03-04 10:57:07,072 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:57:07,072 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: check_version
+2021-03-04 10:57:07,252 DEBUG   SenderThread:2621 [sender.py:send():122] send: run
+2021-03-04 10:57:07,560 INFO    SenderThread:2621 [sender.py:_start_run_threads():599] run started: 2qqjmm65 with start time 1614823026
+2021-03-04 10:57:07,561 DEBUG   SenderThread:2621 [sender.py:send():122] send: summary
+2021-03-04 10:57:07,561 INFO    SenderThread:2621 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-04 10:57:07,563 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: run_start
+2021-03-04 10:57:08,574 DEBUG   HandlerThread:2621 [meta.py:__init__():34] meta init
+2021-03-04 10:57:08,574 DEBUG   HandlerThread:2621 [meta.py:__init__():48] meta init done
+2021-03-04 10:57:08,574 DEBUG   HandlerThread:2621 [meta.py:probe():190] probe
+2021-03-04 10:57:08,580 DEBUG   HandlerThread:2621 [meta.py:_setup_git():180] setup git
+2021-03-04 10:57:08,591 DEBUG   HandlerThread:2621 [meta.py:_setup_git():187] setup git done
+2021-03-04 10:57:08,591 DEBUG   HandlerThread:2621 [meta.py:_save_pip():52] save pip
+2021-03-04 10:57:08,592 DEBUG   HandlerThread:2621 [meta.py:_save_pip():66] save pip done
+2021-03-04 10:57:08,592 DEBUG   HandlerThread:2621 [meta.py:probe():231] probe done
+2021-03-04 10:57:08,596 DEBUG   SenderThread:2621 [sender.py:send():122] send: files
+2021-03-04 10:57:08,596 INFO    SenderThread:2621 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2021-03-04 10:57:08,604 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:57:08,604 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:57:08,605 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:57:08,617 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:57:08,617 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:57:08,751 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:57:08,751 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:57:08,752 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:57:08,752 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:57:08,852 DEBUG   SenderThread:2621 [sender.py:send():122] send: run
+2021-03-04 10:57:08,935 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:57:08,935 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:57:08,935 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:57:08,935 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:57:09,053 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:57:09,054 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:57:09,142 INFO    SenderThread:2621 [sender.py:send_run():502] updated run: 2qqjmm65
+2021-03-04 10:57:09,142 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:57:09,143 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:57:09,144 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:57:11,566 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:57:11,566 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:57:11,715 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:57:23,853 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:57:23,854 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:57:23,854 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:57:39,165 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:57:39,165 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:57:39,166 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:57:54,424 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:57:54,424 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:57:54,425 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:58:09,692 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:58:09,693 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:58:09,693 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:58:24,942 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:58:24,943 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:58:24,943 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:58:36,241 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:58:36,241 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:58:36,243 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:58:36,243 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:58:36,344 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:58:38,178 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:58:38,178 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:58:38,189 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:58:38,189 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:58:38,279 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:58:40,273 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:58:40,273 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:58:40,274 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:58:49,142 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:58:49,142 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:58:49,143 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:58:49,144 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:58:49,263 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:58:55,585 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:58:55,586 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:58:55,586 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:59:01,808 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:59:01,808 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:59:01,811 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:59:01,811 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:59:01,931 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:59:06,253 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:59:06,254 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:59:06,255 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:59:06,255 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:59:06,343 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:59:10,846 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:59:10,846 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:59:10,846 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:59:14,017 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:59:14,017 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:59:14,019 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:59:14,019 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:59:14,134 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 10:59:26,224 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:59:26,225 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:59:26,225 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:59:41,496 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:59:41,497 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:59:41,497 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:59:56,867 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 10:59:56,868 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 10:59:56,868 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 10:59:59,084 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 10:59:59,084 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 10:59:59,085 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 10:59:59,085 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 10:59:59,187 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:01,964 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:01,965 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:01,972 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:01,972 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:02,086 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:05,304 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:05,304 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:05,305 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:05,305 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:05,389 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:05,445 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:05,445 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:05,467 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:05,467 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:05,579 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:12,133 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:00:12,134 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:00:12,134 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:00:27,500 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:00:27,501 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:00:27,501 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:00:30,149 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:30,149 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:30,170 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:30,170 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:30,247 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:39,178 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:39,178 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:39,181 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:39,181 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:39,262 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:42,412 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:42,412 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:42,412 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:42,412 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:42,508 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:42,726 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:42,727 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:42,747 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:42,747 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:42,841 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:00:42,842 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:00:42,842 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:00:43,101 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:52,620 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:52,620 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:52,622 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:52,622 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:52,708 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:55,728 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:55,729 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:55,731 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:55,731 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:55,821 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:00:58,103 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:00:58,103 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:00:58,103 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:00:59,155 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:00:59,156 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:00:59,180 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:00:59,180 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:00:59,264 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:01:06,050 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:01:06,050 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:01:06,077 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:01:06,077 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:01:06,151 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:01:13,492 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:01:13,493 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:01:13,493 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:01:22,916 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:01:22,916 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:01:22,922 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:01:22,922 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:01:23,044 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:01:23,248 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: resume
+2021-03-04 11:01:23,248 INFO    HandlerThread:2621 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-03-04 11:01:26,842 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:01:28,737 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:01:28,738 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:01:28,738 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:01:29,212 WARNING MainThread:2621 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-03-04 11:01:29,232 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: pause
+2021-03-04 11:01:29,232 INFO    HandlerThread:2621 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-03-04 11:01:29,313 DEBUG   SenderThread:2621 [sender.py:send():122] send: stats
+2021-03-04 11:01:43,990 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:01:43,991 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:01:43,991 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:01:59,244 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:01:59,244 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:01:59,244 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:02:14,508 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:02:14,509 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:02:14,509 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:02:29,827 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:02:29,828 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:02:29,828 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:02:45,082 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:02:45,083 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:02:45,083 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:03:00,685 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:03:00,686 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:03:00,686 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:03:16,003 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:03:16,003 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:03:16,004 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:03:31,249 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:03:31,249 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:03:31,250 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:03:46,520 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:03:46,520 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:03:46,521 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:04:01,871 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:04:01,871 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:04:01,871 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:04:17,121 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:04:17,122 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:04:17,122 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:04:32,385 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:04:32,386 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:04:32,386 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:04:47,688 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:04:47,688 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:04:47,688 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:05:02,937 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:05:02,937 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:02,937 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:05:18,195 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: status
+2021-03-04 11:05:18,195 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:18,195 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: status
+2021-03-04 11:05:28,446 DEBUG   SenderThread:2621 [sender.py:send():122] send: telemetry
+2021-03-04 11:05:28,447 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-04 11:05:28,724 DEBUG   SenderThread:2621 [sender.py:send():122] send: exit
+2021-03-04 11:05:28,724 INFO    SenderThread:2621 [sender.py:send_exit():200] handling exit code: 0
+2021-03-04 11:05:28,724 INFO    SenderThread:2621 [sender.py:send_exit():208] send defer
+2021-03-04 11:05:28,725 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:28,725 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: poll_exit
+2021-03-04 11:05:28,725 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:28,725 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 0
+2021-03-04 11:05:28,726 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:28,726 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:28,726 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 0
+2021-03-04 11:05:28,726 INFO    SenderThread:2621 [sender.py:send_request_defer():253] send defer: 1
+2021-03-04 11:05:28,726 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:28,726 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 1
+2021-03-04 11:05:28,726 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:28,726 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:28,726 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 1
+2021-03-04 11:05:28,726 INFO    SenderThread:2621 [sender.py:send_request_defer():253] send defer: 2
+2021-03-04 11:05:28,727 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:28,727 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 2
+2021-03-04 11:05:28,727 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:28,727 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:28,727 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 2
+2021-03-04 11:05:28,727 INFO    SenderThread:2621 [sender.py:send_request_defer():253] send defer: 3
+2021-03-04 11:05:28,727 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:28,727 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 3
+2021-03-04 11:05:28,727 DEBUG   SenderThread:2621 [sender.py:send():122] send: summary
+2021-03-04 11:05:28,731 INFO    SenderThread:2621 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-03-04 11:05:28,731 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:28,731 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:28,731 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 3
+2021-03-04 11:05:28,731 INFO    SenderThread:2621 [sender.py:send_request_defer():253] send defer: 4
+2021-03-04 11:05:28,732 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:28,732 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 4
+2021-03-04 11:05:28,732 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:28,732 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:28,732 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 4
+2021-03-04 11:05:28,793 INFO    SenderThread:2621 [sender.py:send_request_defer():253] send defer: 5
+2021-03-04 11:05:28,804 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:28,805 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 5
+2021-03-04 11:05:28,816 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:28,817 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:28,818 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 5
+2021-03-04 11:05:28,820 INFO    SenderThread:2621 [sender.py:send_request_defer():253] send defer: 6
+2021-03-04 11:05:28,823 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:28,823 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 6
+2021-03-04 11:05:28,823 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:28,823 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:28,823 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 6
+2021-03-04 11:05:29,087 INFO    SenderThread:2621 [sender.py:send_request_defer():253] send defer: 7
+2021-03-04 11:05:29,090 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:29,090 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 7
+2021-03-04 11:05:29,091 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:29,091 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:29,092 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 7
+2021-03-04 11:05:29,092 INFO    SenderThread:2621 [sender.py:send_request_defer():253] send defer: 8
+2021-03-04 11:05:29,092 DEBUG   SenderThread:2621 [sender.py:send():122] send: final
+2021-03-04 11:05:29,093 DEBUG   SenderThread:2621 [sender.py:send():122] send: footer
+2021-03-04 11:05:29,093 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: defer
+2021-03-04 11:05:29,094 INFO    HandlerThread:2621 [handler.py:handle_request_defer():115] handle defer: 8
+2021-03-04 11:05:29,094 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:29,095 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: defer
+2021-03-04 11:05:29,097 INFO    SenderThread:2621 [sender.py:send_request_defer():217] handle sender defer: 8
+2021-03-04 11:05:30,733 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: poll_exit
+2021-03-04 11:05:30,733 DEBUG   SenderThread:2621 [sender.py:send():122] send: request
+2021-03-04 11:05:30,734 DEBUG   SenderThread:2621 [sender.py:send_request():131] send_request: poll_exit
+2021-03-04 11:05:30,737 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: get_summary
+2021-03-04 11:05:30,738 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: sampled_history
+2021-03-04 11:05:30,739 DEBUG   HandlerThread:2621 [handler.py:handle_request():101] handle_request: shutdown
+2021-03-04 11:05:30,739 INFO    HandlerThread:2621 [handler.py:finish():532] shutting down handler
+2021-03-04 11:05:31,093 INFO    WriterThread:2621 [datastore.py:close():258] close: /home/dacon/Dacon/bdg/ct-final/src/wandb/run-20210304_105706-2qqjmm65/run-2qqjmm65.wandb
+2021-03-04 11:05:31,734 INFO    SenderThread:2621 [sender.py:finish():814] shutting down sender
+2021-03-04 11:05:31,736 INFO    MainThread:2621 [internal.py:handle_exit():78] Internal process exited

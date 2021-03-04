@@ -1,0 +1,8 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+1
+
+Epoch: 0
+train:   0%|          | 0/1 [00:00<?, ?it/s]/home/ubuntu/anaconda3/envs/nlf/lib/python3.7/site-packages/segmentation_models_pytorch/base/modules.py:102: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self.activation(x)
+train:   0%|          | 0/1 [00:00<?, ?it/s, dice_loss - 0.7623, avg_jaccard - 0.06883, avg_dice - 0.1276, avg_tpf - 0.2716, avg_fpf - 0.2748]train: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s, dice_loss - 0.7623, avg_jaccard - 0.06883, avg_dice - 0.1276, avg_tpf - 0.2716, avg_fpf - 0.2748]train: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s, dice_loss - 0.7623, avg_jaccard - 0.06883, avg_dice - 0.1276, avg_tpf - 0.2716, avg_fpf - 0.2748]
+valid:   0%|          | 0/1 [00:00<?, ?it/s]valid:   0%|          | 0/1 [00:00<?, ?it/s, dice_loss - 0.4882, avg_jaccard - 0.1965, avg_dice - 0.2354, avg_tpf - 0.2523, avg_fpf - 0.2445]valid: 100%|██████████| 1/1 [00:00<00:00,  3.20it/s, dice_loss - 0.4882, avg_jaccard - 0.1965, avg_dice - 0.2354, avg_tpf - 0.2523, avg_fpf - 0.2445]valid: 100%|██████████| 1/1 [00:00<00:00,  3.19it/s, dice_loss - 0.4882, avg_jaccard - 0.1965, avg_dice - 0.2354, avg_tpf - 0.2523, avg_fpf - 0.2445]

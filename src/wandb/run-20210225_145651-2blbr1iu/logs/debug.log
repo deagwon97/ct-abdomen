@@ -1,0 +1,68 @@
+2021-02-25 14:56:51,859 INFO    MainThread:13237 [wandb_setup.py:_flush():69] setting env: {}
+2021-02-25 14:56:51,859 INFO    MainThread:13237 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-02-25 14:56:51,859 INFO    MainThread:13237 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd795aa0f90>
+2021-02-25 14:56:51,860 INFO    MainThread:13237 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_145651-2blbr1iu/logs/debug.log
+2021-02-25 14:56:51,860 INFO    MainThread:13237 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_145651-2blbr1iu/logs/debug-internal.log
+2021-02-25 14:56:51,860 INFO    MainThread:13237 [wandb_init.py:init():352] calling init triggers
+2021-02-25 14:56:51,860 INFO    MainThread:13237 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/normal2', 'name': 'effb3-base', 'model': 'efficientnet-b3', 'pretrain': 'imagenet', 'model_path': '../models/unet_effb3', 'num_epochs': 20, 'batch_size': 16, 'optimizer': <class 'torch.optim.adam.Adam'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda:0'}
+2021-02-25 14:56:51,860 INFO    MainThread:13237 [wandb_init.py:init():374] re-initializing run, found existing run on stack: 30yfwvum
+2021-02-25 14:56:51,862 INFO    MainThread:13237 [wandb_run.py:finish():1078] finishing run jin1125/ct_segment/30yfwvum
+2021-02-25 14:56:51,862 INFO    MainThread:13237 [wandb_init.py:_jupyter_teardown():250] cleaning up jupyter logic
+2021-02-25 14:56:51,863 INFO    MainThread:13237 [jupyter.py:save_history():208] not saving jupyter history
+2021-02-25 14:56:51,863 INFO    MainThread:13237 [wandb_run.py:_atexit_cleanup():1392] got exitcode: 0
+2021-02-25 14:56:51,864 INFO    MainThread:13237 [wandb_run.py:_restore():1364] restore
+2021-02-25 14:56:52,157 INFO    MainThread:13237 [wandb_run.py:_wait_for_finish():1515] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 854
+  total_bytes: 854
+}
+
+2021-02-25 14:56:54,171 INFO    MainThread:13237 [wandb_run.py:_wait_for_finish():1515] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4600
+  total_bytes: 4600
+}
+
+2021-02-25 14:56:56,176 INFO    MainThread:13237 [wandb_run.py:_wait_for_finish():1515] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4600
+  total_bytes: 4600
+}
+
+2021-02-25 14:56:57,497 INFO    MainThread:13237 [wandb_run.py:_show_files():1737] logging synced files
+2021-02-25 14:56:57,501 INFO    MainThread:13237 [wandb_init.py:init():401] starting backend
+2021-02-25 14:56:57,501 INFO    MainThread:13237 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-02-25 14:56:57,503 INFO    MainThread:13237 [backend.py:ensure_launched():123] starting backend process...
+2021-02-25 14:56:57,513 INFO    MainThread:13237 [backend.py:ensure_launched():128] started backend process with pid: 13440
+2021-02-25 14:56:57,514 INFO    MainThread:13237 [wandb_init.py:init():406] backend started and connected
+2021-02-25 14:56:57,525 INFO    MainThread:13237 [wandb_init.py:init():446] updated telemetry
+2021-02-25 14:56:57,526 INFO    MainThread:13237 [wandb_init.py:init():465] communicating current version
+2021-02-25 14:56:58,047 INFO    MainThread:13237 [wandb_init.py:init():470] got version response 
+2021-02-25 14:56:58,047 INFO    MainThread:13237 [wandb_init.py:init():478] communicating run to backend with 30 second timeout
+2021-02-25 14:56:58,361 INFO    MainThread:13237 [wandb_init.py:init():503] starting run threads in backend
+2021-02-25 14:56:59,366 INFO    MainThread:13237 [wandb_run.py:_console_start():1422] atexit reg
+2021-02-25 14:56:59,367 INFO    MainThread:13237 [wandb_run.py:_redirect():1285] redirect: SettingsConsole.WRAP
+2021-02-25 14:56:59,367 INFO    MainThread:13237 [wandb_run.py:_redirect():1320] Wrapping output streams.
+2021-02-25 14:56:59,368 INFO    MainThread:13237 [wandb_run.py:_redirect():1336] Redirects installed.
+2021-02-25 14:56:59,368 INFO    MainThread:13237 [wandb_init.py:init():527] run started, returning control to user process
+2021-02-25 14:58:28,506 INFO    MainThread:13237 [wandb_init.py:_jupyter_setup():271] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd7ecee81d0>
+2021-02-25 14:58:28,508 INFO    MainThread:13237 [wandb_setup.py:_flush():69] setting env: {}
+2021-02-25 14:58:28,508 INFO    MainThread:13237 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-02-25 14:58:28,508 INFO    MainThread:13237 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd795aa0f90>
+2021-02-25 14:58:28,508 INFO    MainThread:13237 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_145828-3opwj4gw/logs/debug.log
+2021-02-25 14:58:28,509 INFO    MainThread:13237 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_145828-3opwj4gw/logs/debug-internal.log
+2021-02-25 14:58:28,509 INFO    MainThread:13237 [wandb_init.py:init():352] calling init triggers
+2021-02-25 14:58:28,509 INFO    MainThread:13237 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/normal2', 'name': 'effb3-base', 'model': 'efficientnet-b3', 'pretrain': 'imagenet', 'model_path': '../models/unet_effb3', 'num_epochs': 20, 'batch_size': 16, 'optimizer': <class 'torch.optim.adam.Adam'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda:0'}
+2021-02-25 14:58:28,509 INFO    MainThread:13237 [wandb_init.py:init():374] re-initializing run, found existing run on stack: 2blbr1iu
+2021-02-25 14:58:28,510 INFO    MainThread:13237 [wandb_run.py:finish():1078] finishing run jin1125/ct_segment/2blbr1iu

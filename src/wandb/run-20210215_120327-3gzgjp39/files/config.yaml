@@ -1,0 +1,43 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.12
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.7.9
+batch_size:
+  desc: null
+  value: 26
+device:
+  desc: null
+  value: cuda:0
+loss:
+  desc: null
+  value: segmentation_models_pytorch.utils.losses.DiceLoss
+model:
+  desc: null
+  value: efficientnet-b3
+model_path:
+  desc: null
+  value: ../models/unet_effb3
+name:
+  desc: null
+  value: effb3-base
+num_epochs:
+  desc: null
+  value: 50
+optimizer:
+  desc: null
+  value: torch.optim.adam.Adam
+path:
+  desc: null
+  value: ../data/normalization
+pretrain:
+  desc: null
+  value: imagenet
+seed:
+  desc: null
+  value: 1015

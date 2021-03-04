@@ -1,0 +1,27 @@
+2021-02-25 15:32:57,325 INFO    MainThread:16192 [wandb_setup.py:_flush():69] setting env: {}
+2021-02-25 15:32:57,325 INFO    MainThread:16192 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-02-25 15:32:57,325 INFO    MainThread:16192 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fe0af35b2d0>
+2021-02-25 15:32:57,326 INFO    MainThread:16192 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_153257-2lt487of/logs/debug.log
+2021-02-25 15:32:57,326 INFO    MainThread:16192 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_153257-2lt487of/logs/debug-internal.log
+2021-02-25 15:32:57,326 INFO    MainThread:16192 [wandb_init.py:init():352] calling init triggers
+2021-02-25 15:32:57,326 INFO    MainThread:16192 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/normal2', 'name': 'efficientnet-b0', 'model': 'efficientnet-b0', 'pretrain': 'imagenet', 'model_path': '../models/efficientnet-b0', 'augmentation': [], 'num_epochs': 20, 'batch_size': 18, 'optimizer': <class 'torch.optim.adam.Adam'>, 'scheduler': <class 'torch.optim.lr_scheduler.CosineAnnealingWarmRestarts'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda'}
+2021-02-25 15:32:57,326 INFO    MainThread:16192 [wandb_init.py:init():401] starting backend
+2021-02-25 15:32:57,326 INFO    MainThread:16192 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-02-25 15:32:57,347 INFO    MainThread:16192 [backend.py:ensure_launched():123] starting backend process...
+2021-02-25 15:32:57,362 INFO    MainThread:16192 [backend.py:ensure_launched():128] started backend process with pid: 16232
+2021-02-25 15:32:57,362 INFO    MainThread:16192 [wandb_init.py:init():406] backend started and connected
+2021-02-25 15:32:57,374 INFO    MainThread:16192 [wandb_init.py:init():446] updated telemetry
+2021-02-25 15:32:57,375 INFO    MainThread:16192 [wandb_init.py:init():465] communicating current version
+2021-02-25 15:32:57,913 INFO    MainThread:16192 [wandb_init.py:init():470] got version response 
+2021-02-25 15:32:57,913 INFO    MainThread:16192 [wandb_init.py:init():478] communicating run to backend with 30 second timeout
+2021-02-25 15:32:58,234 INFO    MainThread:16192 [wandb_init.py:init():503] starting run threads in backend
+2021-02-25 15:32:59,268 INFO    MainThread:16192 [wandb_run.py:_console_start():1422] atexit reg
+2021-02-25 15:32:59,269 INFO    MainThread:16192 [wandb_run.py:_redirect():1285] redirect: SettingsConsole.WRAP
+2021-02-25 15:32:59,270 INFO    MainThread:16192 [wandb_run.py:_redirect():1320] Wrapping output streams.
+2021-02-25 15:32:59,270 INFO    MainThread:16192 [wandb_run.py:_redirect():1336] Redirects installed.
+2021-02-25 15:32:59,270 INFO    MainThread:16192 [wandb_init.py:init():527] run started, returning control to user process
+2021-02-25 15:32:59,277 INFO    MainThread:16192 [wandb_init.py:_pause_backend():240] pausing backend
+2021-02-25 15:32:59,309 INFO    MainThread:16192 [wandb_init.py:_resume_backend():245] resuming backend
+2021-02-25 15:32:59,356 INFO    MainThread:16192 [wandb_init.py:_pause_backend():240] pausing backend
+2021-02-25 15:32:59,399 INFO    MainThread:16192 [wandb_init.py:_resume_backend():245] resuming backend

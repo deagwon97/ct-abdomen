@@ -1,0 +1,68 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.20
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.7.9
+    t:
+      1:
+      - 1
+      - 5
+      2:
+      - 1
+      - 5
+      4: 3.7.9
+      5: 0.10.20
+      8:
+      - 1
+      - 5
+augmentation:
+  desc: null
+  value:
+  - Transpose(always_apply=False, p=0.5)
+  - RandomRotate90(always_apply=3, p=0.5)
+  - Rotate(always_apply=False, p=1, limit=(-90, 90), interpolation=1, border_mode=1,
+    value=None, mask_value=None)
+  - GridDistortion(always_apply=False, p=0.2, num_steps=5, distort_limit=(-0.3, 0.3),
+    interpolation=1, border_mode=4, value=None, mask_value=None)
+  - Cutout(always_apply=False, p=0.3, num_holes=30, max_h_size=20, max_w_size=20)
+batch_size:
+  desc: null
+  value: 16
+device:
+  desc: null
+  value: cuda:0
+loss:
+  desc: null
+  value: segmentation_models_pytorch.utils.losses.DiceLoss
+model:
+  desc: null
+  value: resnet152
+model_path:
+  desc: null
+  value: ../models/resnet152
+name:
+  desc: null
+  value: resnet152
+num_epochs:
+  desc: null
+  value: 40
+optimizer:
+  desc: null
+  value: torch.optim.adam.Adam
+path:
+  desc: null
+  value: ../data/no_aug
+pretrain:
+  desc: null
+  value: imagenet
+scheduler:
+  desc: null
+  value: torch.optim.lr_scheduler.CosineAnnealingWarmRestarts
+seed:
+  desc: null
+  value: 1015

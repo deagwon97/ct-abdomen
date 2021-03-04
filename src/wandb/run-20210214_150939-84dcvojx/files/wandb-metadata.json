@@ -1,0 +1,20 @@
+{
+    "os": "Linux-4.4.0-176-generic-x86_64-with-debian-stretch-sid",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-02-14T06:09:40.747729",
+    "startedAt": "2021-02-14T06:09:39.340955",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 2,
+    "cpu_count": 16,
+    "cuda": "10.1.105",
+    "args": [
+        "-f",
+        "/home/ubuntu/.local/share/jupyter/runtime/kernel-219d4f6f-83c0-4397-a440-7bef81988196.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "nipa2019-0168",
+    "username": "ubuntu",
+    "executable": "/home/ubuntu/anaconda3/envs/nlf/bin/python"
+}

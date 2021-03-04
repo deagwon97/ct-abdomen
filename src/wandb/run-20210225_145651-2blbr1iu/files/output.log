@@ -1,0 +1,5 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+[34m[1mwandb[0m: Currently logged in as: [33mjin1125[0m (use `wandb login --relogin` to force relogin)
+[34m[1mwandb[0m: You can find your API key in your browser here: https://wandb.ai/authorize
+[34m[1mwandb[0m: Paste an API key from your profile and hit enter: 
+Aborted!

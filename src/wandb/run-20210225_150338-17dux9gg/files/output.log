@@ -1,0 +1,9 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+1
+Downloading: "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b7_ns-1dbc32de.pth" to /home/dacon/.cache/torch/hub/checkpoints/tf_efficientnet_b7_ns-1dbc32de.pth
+
+/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/albumentations/augmentations/transforms.py:2247: UserWarning: Using lambda is incompatible with multiprocessing. Consider using regular functions or partial().
+  warnings.warn('Using lambda is incompatible with multiprocessing. '
+
+Epoch: 0
+train:   0%|          | 0/6635 [00:00<?, ?it/s]train:   0%|          | 0/6635 [00:00<?, ?it/s]

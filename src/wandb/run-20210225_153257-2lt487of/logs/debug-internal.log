@@ -1,0 +1,56 @@
+2021-02-25 15:32:57,736 INFO    MainThread:16232 [internal.py:wandb_internal():91] W&B internal server running at pid: 16232, started at: 2021-02-25 15:32:57.736241
+2021-02-25 15:32:57,738 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: check_version
+2021-02-25 15:32:57,738 INFO    WriterThread:16232 [datastore.py:open_for_write():77] open: /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_153257-2lt487of/run-2lt487of.wandb
+2021-02-25 15:32:57,741 DEBUG   SenderThread:16232 [sender.py:send():122] send: header
+2021-02-25 15:32:57,741 DEBUG   SenderThread:16232 [sender.py:send():122] send: request
+2021-02-25 15:32:57,741 DEBUG   SenderThread:16232 [sender.py:send_request():131] send_request: check_version
+2021-02-25 15:32:57,914 DEBUG   SenderThread:16232 [sender.py:send():122] send: run
+2021-02-25 15:32:58,234 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: run_start
+2021-02-25 15:32:58,235 INFO    SenderThread:16232 [sender.py:_start_run_threads():599] run started: 2lt487of with start time 1614234777
+2021-02-25 15:32:58,235 DEBUG   SenderThread:16232 [sender.py:send():122] send: summary
+2021-02-25 15:32:58,235 INFO    SenderThread:16232 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2021-02-25 15:32:59,219 DEBUG   HandlerThread:16232 [meta.py:__init__():34] meta init
+2021-02-25 15:32:59,219 DEBUG   HandlerThread:16232 [meta.py:__init__():48] meta init done
+2021-02-25 15:32:59,219 DEBUG   HandlerThread:16232 [meta.py:probe():190] probe
+2021-02-25 15:32:59,225 DEBUG   HandlerThread:16232 [meta.py:_setup_git():180] setup git
+2021-02-25 15:32:59,258 DEBUG   HandlerThread:16232 [meta.py:_setup_git():187] setup git done
+2021-02-25 15:32:59,258 DEBUG   HandlerThread:16232 [meta.py:_save_pip():52] save pip
+2021-02-25 15:32:59,259 DEBUG   HandlerThread:16232 [meta.py:_save_pip():66] save pip done
+2021-02-25 15:32:59,259 DEBUG   HandlerThread:16232 [meta.py:probe():231] probe done
+2021-02-25 15:32:59,262 DEBUG   SenderThread:16232 [sender.py:send():122] send: files
+2021-02-25 15:32:59,262 INFO    SenderThread:16232 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2021-02-25 15:32:59,271 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: status
+2021-02-25 15:32:59,272 DEBUG   SenderThread:16232 [sender.py:send():122] send: request
+2021-02-25 15:32:59,273 DEBUG   SenderThread:16232 [sender.py:send_request():131] send_request: status
+2021-02-25 15:32:59,278 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: pause
+2021-02-25 15:32:59,278 INFO    HandlerThread:16232 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-02-25 15:32:59,401 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: resume
+2021-02-25 15:32:59,401 INFO    HandlerThread:16232 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-02-25 15:32:59,401 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: pause
+2021-02-25 15:32:59,401 INFO    HandlerThread:16232 [handler.py:handle_request_pause():422] stopping system metrics thread
+2021-02-25 15:32:59,503 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: resume
+2021-02-25 15:32:59,503 INFO    HandlerThread:16232 [handler.py:handle_request_resume():417] starting system metrics thread
+2021-02-25 15:32:59,535 DEBUG   SenderThread:16232 [sender.py:send():122] send: run
+2021-02-25 15:32:59,843 INFO    SenderThread:16232 [sender.py:send_run():502] updated run: 2lt487of
+2021-02-25 15:32:59,844 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:32:59,845 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:03,160 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:07,838 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:12,508 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:14,536 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: status
+2021-02-25 15:33:14,537 DEBUG   SenderThread:16232 [sender.py:send():122] send: request
+2021-02-25 15:33:14,537 DEBUG   SenderThread:16232 [sender.py:send_request():131] send_request: status
+2021-02-25 15:33:17,206 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:21,920 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:26,577 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:29,786 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: status
+2021-02-25 15:33:29,787 DEBUG   SenderThread:16232 [sender.py:send():122] send: request
+2021-02-25 15:33:29,787 DEBUG   SenderThread:16232 [sender.py:send_request():131] send_request: status
+2021-02-25 15:33:31,303 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:36,036 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:40,731 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:45,030 DEBUG   HandlerThread:16232 [handler.py:handle_request():101] handle_request: status
+2021-02-25 15:33:45,030 DEBUG   SenderThread:16232 [sender.py:send():122] send: request
+2021-02-25 15:33:45,030 DEBUG   SenderThread:16232 [sender.py:send_request():131] send_request: status
+2021-02-25 15:33:45,452 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats
+2021-02-25 15:33:50,157 DEBUG   SenderThread:16232 [sender.py:send():122] send: stats

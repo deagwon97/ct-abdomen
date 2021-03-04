@@ -1,0 +1,71 @@
+2021-02-25 14:58:56,595 INFO    MainThread:13237 [wandb_setup.py:_flush():69] setting env: {}
+2021-02-25 14:58:56,595 INFO    MainThread:13237 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-02-25 14:58:56,595 INFO    MainThread:13237 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd795aa0f90>
+2021-02-25 14:58:56,595 INFO    MainThread:13237 [wandb_init.py:_log_setup():319] Logging user logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_145856-b4c3woux/logs/debug.log
+2021-02-25 14:58:56,595 INFO    MainThread:13237 [wandb_init.py:_log_setup():320] Logging internal logs to /home/dacon/Dacon/bdg/ct/segment_abdomen/src/wandb/run-20210225_145856-b4c3woux/logs/debug-internal.log
+2021-02-25 14:58:56,595 INFO    MainThread:13237 [wandb_init.py:init():352] calling init triggers
+2021-02-25 14:58:56,595 INFO    MainThread:13237 [wandb_init.py:init():359] wandb.init called with sweep_config: {}
+config: {'path': '../data/normal2', 'name': 'effb3-base', 'model': 'efficientnet-b3', 'pretrain': 'imagenet', 'model_path': '../models/unet_effb3', 'num_epochs': 20, 'batch_size': 16, 'optimizer': <class 'torch.optim.adam.Adam'>, 'loss': <class 'segmentation_models_pytorch.utils.losses.DiceLoss'>, 'seed': 1015, 'device': 'cuda:0'}
+2021-02-25 14:58:56,595 INFO    MainThread:13237 [wandb_init.py:init():374] re-initializing run, found existing run on stack: 3opwj4gw
+2021-02-25 14:58:56,597 INFO    MainThread:13237 [wandb_run.py:finish():1078] finishing run deagwon-bu/ct_segment/3opwj4gw
+2021-02-25 14:58:56,597 INFO    MainThread:13237 [wandb_init.py:_jupyter_teardown():250] cleaning up jupyter logic
+2021-02-25 14:58:56,598 INFO    MainThread:13237 [jupyter.py:save_history():208] not saving jupyter history
+2021-02-25 14:58:56,598 INFO    MainThread:13237 [wandb_run.py:_atexit_cleanup():1392] got exitcode: 0
+2021-02-25 14:58:56,598 INFO    MainThread:13237 [wandb_run.py:_restore():1364] restore
+2021-02-25 14:58:56,887 INFO    MainThread:13237 [wandb_run.py:_wait_for_finish():1515] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 854
+  total_bytes: 854
+}
+
+2021-02-25 14:58:58,900 INFO    MainThread:13237 [wandb_run.py:_wait_for_finish():1515] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4491
+  total_bytes: 4491
+}
+
+2021-02-25 14:59:00,227 INFO    MainThread:13237 [wandb_run.py:_show_files():1737] logging synced files
+2021-02-25 14:59:00,235 INFO    MainThread:13237 [wandb_init.py:init():401] starting backend
+2021-02-25 14:59:00,235 INFO    MainThread:13237 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-02-25 14:59:00,240 INFO    MainThread:13237 [backend.py:ensure_launched():123] starting backend process...
+2021-02-25 14:59:00,258 INFO    MainThread:13237 [backend.py:ensure_launched():128] started backend process with pid: 13619
+2021-02-25 14:59:00,260 INFO    MainThread:13237 [wandb_init.py:init():406] backend started and connected
+2021-02-25 14:59:00,280 INFO    MainThread:13237 [wandb_init.py:init():446] updated telemetry
+2021-02-25 14:59:00,280 INFO    MainThread:13237 [wandb_init.py:init():465] communicating current version
+2021-02-25 14:59:00,826 INFO    MainThread:13237 [wandb_init.py:init():470] got version response 
+2021-02-25 14:59:00,826 INFO    MainThread:13237 [wandb_init.py:init():478] communicating run to backend with 30 second timeout
+2021-02-25 14:59:01,368 INFO    MainThread:13237 [wandb_init.py:init():503] starting run threads in backend
+2021-02-25 14:59:02,340 INFO    MainThread:13237 [wandb_run.py:_console_start():1422] atexit reg
+2021-02-25 14:59:02,341 INFO    MainThread:13237 [wandb_run.py:_redirect():1285] redirect: SettingsConsole.WRAP
+2021-02-25 14:59:02,341 INFO    MainThread:13237 [wandb_run.py:_redirect():1320] Wrapping output streams.
+2021-02-25 14:59:02,341 INFO    MainThread:13237 [wandb_run.py:_redirect():1336] Redirects installed.
+2021-02-25 14:59:02,341 INFO    MainThread:13237 [wandb_init.py:init():527] run started, returning control to user process
+2021-02-25 14:59:24,110 INFO    MainThread:13237 [wandb_run.py:_atexit_cleanup():1392] got exitcode: 0
+2021-02-25 14:59:24,111 INFO    MainThread:13237 [wandb_run.py:_restore():1364] restore
+2021-02-25 14:59:24,411 INFO    MainThread:13237 [wandb_run.py:_wait_for_finish():1515] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 854
+  total_bytes: 854
+}
+
+2021-02-25 14:59:26,423 INFO    MainThread:13237 [wandb_run.py:_wait_for_finish():1515] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 4331
+  total_bytes: 4331
+}
+
+2021-02-25 14:59:27,738 INFO    MainThread:13237 [wandb_run.py:_show_files():1737] logging synced files
