@@ -6,6 +6,8 @@ RUN apt-get install -y libgl1-mesa-glx
 
 RUN apt-get install -y libgtk2.0-dev
 
+RUN apt-get update && apt-get install -y git
+
 RUN git clone https://github.com/deagwon97/ct-abdomen
 
 WORKDIR /ct-abdomen
