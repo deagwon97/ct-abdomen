@@ -6,11 +6,9 @@ RUN apt-get install -y libgl1-mesa-glx
 
 RUN apt-get install -y libgtk2.0-dev
 
-ADD models /workspace/models
+RUN git clone https://github.com/deagwon97/ct-abdomen
 
-ADD python_script /workspace/python_script
-
-ADD src /workspace/src
+WORKDIR /ct-abdomen
 
 RUN python -m pip install --upgrade pip
 
