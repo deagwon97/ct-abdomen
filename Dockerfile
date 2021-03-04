@@ -14,4 +14,6 @@ WORKDIR /ct-abdomen
 
 RUN python -m pip install --upgrade pip
 
-RUN python -m pip install -r /workspace/src/requirements.txt
+#RUN python -m pip install -r /ct-abdomen/src/requirements.txt
+
+RUN python -m pip install -r /src/requirements.txt
