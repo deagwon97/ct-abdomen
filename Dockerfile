@@ -12,10 +12,8 @@ RUN apt-get update && apt-get install -y git
 
 RUN git clone https://github.com/deagwon97/ct-abdomen
 
-WORKDIR /ct-abdomen
+WORKDIR /workspace/ct-abdomen
 
 RUN python -m pip install --upgrade pip
-
-#RUN python -m pip install -r /ct-abdomen/src/requirements.txt
 
 RUN python -m pip install -r /workspace/ct-abdomen/requirements.txt
