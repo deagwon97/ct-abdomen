@@ -1,3 +1,5 @@
+#! /bin/bash
+
 FROM pytorch/pytorch:1.7.1-cuda11.0-cudnn8-runtime
 
 RUN apt-get update
@@ -16,4 +18,4 @@ RUN python -m pip install --upgrade pip
 
 #RUN python -m pip install -r /ct-abdomen/src/requirements.txt
 
-RUN python -m pip install -r /src/requirements.txt
+RUN python -m pip install -r ./src/requirements.txt

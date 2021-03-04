@@ -1,6 +1,0 @@
-pydicom
-pandas
-matplotlib
-albumentations
-segmentation_models_pytorch
-sklearn
