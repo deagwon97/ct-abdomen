@@ -247,9 +247,9 @@ if __name__ == "__main__":
     #if sys.argv[7] == '-z_length':
     #    z_length = int(sys.argv[8])
         
-    input_dir = "../../inference_input"
-    output_dir = "../../inference_result"
-    models_dir = "../../inference_models"
+    input_dir = "../inference_input"
+    output_dir = "../inference_result"
+    models_dir = "../inference_models"
     z_length = 132
 
     with torch.no_grad():    
