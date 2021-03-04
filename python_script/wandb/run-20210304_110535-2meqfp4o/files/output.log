@@ -1,21 +1,0 @@
-wandb: WARNING Calling run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
-1
-/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/albumentations/augmentations/transforms.py:2247: UserWarning: Using lambda is incompatible with multiprocessing. Consider using regular functions or partial().
-  warnings.warn('Using lambda is incompatible with multiprocessing. '
-
-Epoch: 0
-train:   0%|                                                      | 0/227 [00:00<?, ?it/s]/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/segmentation_models_pytorch/base/modules.py:102: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
-  return self.activation(x)
-train:   0%| | 0/227 [00:03<?, ?it/s, dice_loss - 0.6841, avg_jaccard - 0.1492, avg_dice -train:   0%| | 1/227 [00:03<12:56,  3.44s/it, dice_loss - 0.6841, avg_jaccard - 0.1492, avtrain:   0%| | 1/227 [00:04<12:56,  3.44s/it, dice_loss - 0.6613, avg_jaccard - 0.1778, avtrain:   1%| | 2/227 [00:04<09:52,  2.63s/it, dice_loss - 0.6613, avg_jaccard - 0.1778, avtrain:   1%| | 2/227 [00:04<09:52,  2.63s/it, dice_loss - 0.6422, avg_jaccard - 0.201, avgtrain:   1%| | 3/227 [00:04<07:43,  2.07s/it, dice_loss - 0.6422, avg_jaccard - 0.201, avgtrain:   1%| | 3/227 [00:05<07:43,  2.07s/it, dice_loss - 0.627, avg_jaccard - 0.2199, avgtrain:   2%| | 4/227 [00:05<06:11,  1.66s/it, dice_loss - 0.627, avg_jaccard - 0.2199, avgtrain:   2%| | 4/227 [00:06<06:11,  1.66s/it, dice_loss - 0.6139, avg_jaccard - 0.2321, avtrain:   2%| | 5/227 [00:06<05:08,  1.39s/it, dice_loss - 0.6139, avg_jaccard - 0.2321, avtrain:   2%| | 5/227 [00:07<05:08,  1.39s/it, dice_loss - 0.6019, avg_jaccard - 0.2451, avtrain:   3%| | 6/227 [00:07<04:23,  1.19s/it, dice_loss - 0.6019, avg_jaccard - 0.2451, avtrain:   3%| | 6/227 [00:07<04:23,  1.19s/it, dice_loss - 0.5896, avg_jaccard - 0.2603, avtrain:   3%| | 7/227 [00:07<03:49,  1.04s/it, dice_loss - 0.5896, avg_jaccard - 0.2603, avtrain:   3%| | 7/227 [00:08<03:49,  1.04s/it, dice_loss - 0.5774, avg_jaccard - 0.2774, avtrain:   4%| | 8/227 [00:08<03:26,  1.06it/s, dice_loss - 0.5774, avg_jaccard - 0.2774, avtrain:   4%| | 8/227 [00:09<03:26,  1.06it/s, dice_loss - 0.5678, avg_jaccard - 0.2892, avtrain:   4%| | 9/227 [00:09<03:08,  1.16it/s, dice_loss - 0.5678, avg_jaccard - 0.2892, avtrain:   4%| | 9/227 [00:09<03:08,  1.16it/s, dice_loss - 0.5573, avg_jaccard - 0.3038, avtrain:   4%| | 10/227 [00:09<02:58,  1.21it/s, dice_loss - 0.5573, avg_jaccard - 0.3038, atrain:   4%| | 10/227 [00:10<02:58,  1.21it/s, dice_loss - 0.5476, avg_jaccard - 0.3167, atrain:   5%| | 11/227 [00:10<02:49,  1.27it/s, dice_loss - 0.5476, avg_jaccard - 0.3167, atrain:   5%| | 11/227 [00:11<02:49,  1.27it/s, dice_loss - 0.5409, avg_jaccard - 0.323, avtrain:   5%| | 12/227 [00:11<02:42,  1.32it/s, dice_loss - 0.5409, avg_jaccard - 0.323, avtrain:   5%| | 12/227 [00:11<03:32,  1.01it/s, dice_loss - 0.5409, avg_jaccard - 0.323, av
-Traceback (most recent call last):
-  File "02train.py", line 191, in <module>
-    train_logs = train_epoch.run(train_loader)
-  File "/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/segmentation_models_pytorch/utils/train.py", line 47, in run
-    loss, y_pred = self.batch_update(x, y)
-  File "/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/segmentation_models_pytorch/utils/train.py", line 89, in batch_update
-    loss.backward()
-  File "/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/torch/tensor.py", line 221, in backward
-    torch.autograd.backward(self, gradient, retain_graph, create_graph)
-  File "/home/dacon/anaconda3/envs/ct/lib/python3.7/site-packages/torch/autograd/__init__.py", line 132, in backward
-    allow_unreachable=True)  # allow_unreachable flag
-KeyboardInterrupt

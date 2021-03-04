@@ -22,7 +22,7 @@ if __name__ == "__main__":
     # input path
     #if sys.argv[1] == '-raw_data':
     #    raw_data = sys.argv[2]
-    raw_data = "../raw_data"
+    raw_data = "../raw_data/"
 
 
     images_paths = create_meta_df(raw_data)

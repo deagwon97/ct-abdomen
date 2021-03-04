@@ -238,14 +238,19 @@ def draw_3d_plot(image,
 
 if __name__ == "__main__":
     # input path
-    if sys.argv[1] == '-input_dir':
-        input_dir = sys.argv[2]
-    if sys.argv[3] == '-output_dir':
-        output_dir = sys.argv[4]
-    if sys.argv[5] == '-models_dir':
-        models_dir = sys.argv[6]
-    if sys.argv[7] == '-z_length':
-        z_length = int(sys.argv[8])
+    #if sys.argv[1] == '-input_dir':
+    #    input_dir = sys.argv[2]
+    #if sys.argv[3] == '-output_dir':
+    #    output_dir = sys.argv[4]
+    #if sys.argv[5] == '-models_dir':
+    #    models_dir = sys.argv[6]
+    #if sys.argv[7] == '-z_length':
+    #    z_length = int(sys.argv[8])
+        
+    input_dir = "../../inference_input"
+    output_dir = "output"
+    models_dir = "models"
+    z_length = 132
 
     with torch.no_grad():    
         #모델 불러오기-------------------------------------------------------------
