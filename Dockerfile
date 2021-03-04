@@ -18,4 +18,4 @@ RUN python -m pip install --upgrade pip
 
 #RUN python -m pip install -r /ct-abdomen/src/requirements.txt
 
-RUN python -m pip install -r ./src/requirements.txt
+RUN python -m pip install -r requirements.txt
