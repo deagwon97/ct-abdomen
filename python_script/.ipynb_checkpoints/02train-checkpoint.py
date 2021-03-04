@@ -59,9 +59,9 @@ if __name__ == "__main__":
     CONFIG['scheduler']= lr_scheduler.CosineAnnealingWarmRestarts
     CONFIG['loss']= smp.utils.losses.DiceLoss
     CONFIG['device']= "cuda:1"
-    wandb.init(project="ct_segment", config=CONFIG,  reinit = True)
-    wandb.run.name = CONFIG['name']
-    wandb.run.save()
+    #wandb.init(project="ct_segment", config=CONFIG,  reinit = True)
+    #wandb.run.name = CONFIG['name']
+    #wandb.run.save()
     seed_everything(CONFIG['seed'])
     
     images_paths = os.listdir(CONFIG['path']+'/img')
@@ -82,13 +82,6 @@ if __name__ == "__main__":
     def get_training_augmentation():
         transform = CONFIG['augmentation']
         return albu.Compose(transform)
-    
-    
-    
-    
-    
-    
-    
     
     for fold_index, (trn_idx, val_idx) in enumerate(kfold.split(train_images)):
         if fold_index == target_fold_index:
@@ -212,9 +205,9 @@ if __name__ == "__main__":
 
                 score_log.update(train_log)
                 score_log.update(valid_log)
-                wandb.log(score_log)
+                #wandb.log(score_log)
 
-                #wandb.log(new_logs)
+                
                 scheduler.step()
                 if max_valid_dice < valid_logs['avg_dice']:
                     max_valid_dice = valid_logs['avg_dice']
@@ -251,8 +244,10 @@ if __name__ == "__main__":
                         plt.tight_layout()
                         fig = plt.gcf()
                         figure_array = figure_to_array(fig)
+                        '''
                         wandb.log({"examples": [wandb.Image(figure_array,
                                                             caption=f"{CONFIG['name']}_{max_valid_dice:.4f}loss_{i}epochs")]})
+                        '''
                         plt.show()
 
                 else:
