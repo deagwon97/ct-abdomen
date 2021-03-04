@@ -1,4 +1,4 @@
 #! /bin/bash
 
-docker build -t cv-inf -f Dockerfile .
+docker build -t ct-inf -f Dockerfile .
 
