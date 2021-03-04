@@ -250,7 +250,7 @@ if __name__ == "__main__":
     input_dir = "../inference_input"
     output_dir = "../inference_result"
     models_dir = "../inference_models"
-    if os.isdir(output_dir) == False:
+    if os.path.exists(output_dir) == False:
         os.mkdir(output_dir)
     z_length = 132
 
