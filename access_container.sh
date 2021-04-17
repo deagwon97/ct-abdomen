@@ -4,9 +4,10 @@ mkdir -p inference_result
 
 mkdir -p inference_models
 
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1gWA7tiGY5yJvy7PWtEHGXFKSAa5_gQkq' -O inference_models/segment_model.pth
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1NpJ5OUC8mhceO2Y2x9AHT3koNdBsr9TZ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1NpJ5OUC8mhceO2Y2x9AHT3koNdBsr9TZ" -O inference_models/segment_model.pth && rm -rf /tmp/cookies.txt
 
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1rI429jEvZ_A6A3xwSMG5pf0c0z0nR41N' -O inference_models/detect_model.pth
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1rI429jEvZ_A6A3xwSMG5pf0c0z0nR41N' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1rI429jEvZ_A6A3xwSMG5pf0c0z0nR41N" -O inference_models/detect_model.pth && rm -rf /tmp/cookies.txt
+
 
 docker run --gpus all\
             -it\

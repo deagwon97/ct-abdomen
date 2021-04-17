@@ -16,8 +16,8 @@ import warnings
 
 warnings.filterwarnings(action='ignore')
 
-#margin = 50
-margin = 0
+margin = 50
+#margin = 0
 os.environ["CUDA_VISIBLE_DEVICES"]="1"
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 #device = torch.device('cpu')
