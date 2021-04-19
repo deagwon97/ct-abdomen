@@ -7,6 +7,8 @@ mkdir -p inference_models
 # segment 모델 다운로드
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1NpJ5OUC8mhceO2Y2x9AHT3koNdBsr9TZ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1NpJ5OUC8mhceO2Y2x9AHT3koNdBsr9TZ" -O inference_models/segment_model.pth && rm -rf /tmp/cookies.txt
 
+sleep 5
+
 # detect 모델 다운로드
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1rI429jEvZ_A6A3xwSMG5pf0c0z0nR41N' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1rI429jEvZ_A6A3xwSMG5pf0c0z0nR41N" -O inference_models/detect_model.pth && rm -rf /tmp/cookies.txt
 
