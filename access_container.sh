@@ -18,12 +18,11 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 
 # sample data 다운로드
 sleep 5
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1I8zE477BOoOTpz5fb2YygRFXDm_4NtQD' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1I8zE477BOoOTpz5fb2YygRFXDm_4NtQD" -O inference_input.tar && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1JAY9mZoh4qbt6vQMSx6ra8HNlGtj7vQe' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1JAY9mZoh4qbt6vQMSx6ra8HNlGtj7vQe" -O inference_input.tar && rm -rf /tmp/cookies.txt
 
 # 샘플 압출 풀기
 tar -xvf inference_input.tar
 rm inference_input.tar
-
 
 
 # 마운트
